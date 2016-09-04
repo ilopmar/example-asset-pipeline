@@ -1,21 +1,15 @@
-// This is a manifest file that'll be compiled into application.js.
-//
-// Any JavaScript file within this directory can be referenced here using a relative path.
-//
-// You're free to add application-wide JavaScript to this file, but it's generally better
-// to create separate JavaScript files as needed.
-//
-//= require jquery-2.2.0.min
-//= require bootstrap
-//= require_tree .
-//= require_self
+// require bootstrap.min
+//= require jquery/js/jquery-2.0.3.min
+//= require jquery/js/jquery-ui-1.10.3.custom.min
+//= require jquery/js/jquery-ui-1.10.3.full.min
+//= require jquery/js/jquery.mobile.custom.min
+//= require jquery/js/jquery.slimscroll.min
+//= require jquery/js/jquery.gritter.min
+//= require jquery/js/jquery.hotkeys.min
+//= require jquery/js/jquery.easy-pie-chart.min
+//= require jquery/js/jquery.maskedinput.min
+//= require jquery/js/jquery.dataTables.min
+//= require jquery/js/jquery.dataTables.bootstrap
 
-if (typeof jQuery !== 'undefined') {
-    (function($) {
-        $('#spinner').ajaxStart(function() {
-            $(this).fadeIn();
-        }).ajaxStop(function() {
-            $(this).fadeOut();
-        });
-    })(jQuery);
-}
+//= require jqGrid/jquery.jqGrid.min
+//= require jqGrid/i18n/grid.locale-en
